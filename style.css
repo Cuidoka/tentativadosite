@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.sobre{
+  background-color: azure;
+}
+.contato{
+  background-color: #56007e;
+}
+.Inicio {
+  background-color: #36004b;
+}
+.salvacao {
+  background-color: #4bd4c2;
+}
+.servicos{
+  background-color: #424242;
+}
+header {
+  background: #550077;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+nav {
+  background: #36004b;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+nav a:hover {
+  background: rgb(2,0,36);
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(73,0,87,1) 100%);
+  border: 1px solid rgb(0, 0, 0);
+padding: 10px;
+border-radius: 9999px;
+-webkit-box-shadow: 7px 6px 21px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 6px 21px 3px rgba(0,0,0,0.75);
+box-shadow: 7px 6px 21px 3px rgba(0,0,0,0.75);
+}
+.container {
+  max-width: 800px;
+  min-height: 700px;
+  margin: 20px auto;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  box-shadow: 0px 0px 200px rgba(0, 0, 0, 0.8);
+}
+footer {
+  background: #56007e;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 10px;
+}
+Div {
+  
+  line-height: 1.5;
+  text-align: center
+
+} 
+nav ul {
+display: flex;
+}
+nav ul li {
+  list-style: none;
+}
